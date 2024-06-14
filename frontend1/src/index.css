@@ -1,0 +1,144 @@
+/* html {
+  background-color: blanchedalmond;
+} */
+
+.navbar {
+  position: fixed;
+  top: 0%;
+  width: 100%;
+  background-color: white;
+  padding-top: 2%;
+  background-color: transparent;
+
+}
+
+.title {
+  padding-top: 1%;
+  text-align: center;
+  font-size: 30px;
+}
+
+.big-calendar {
+  font-size: 14px;
+}
+
+
+ul {
+  list-style-type: none;
+  display: flex;
+  padding: 2%;
+  padding-top: 0%;
+  overflow: hidden;
+  float: right;
+  justify-content: flex-end;
+  
+} 
+
+@media only screen and (max-width: 1500px) {
+  ul {
+         background-size:contain!important;            
+         height: 1%;
+         margin: 0;
+         max-width: 800px;
+         padding: 9% 0;
+  }
+  div {
+    padding-top: 4%;
+  }
+  .title {
+    padding-top: 4%;
+  }
+} 
+
+li {
+  float: left;
+  list-style-type: none;
+
+}
+
+li a {
+  border-radius: 20px;
+  font-size: 20px;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+  float: left;
+  padding-left: 10%;
+  margin-left: 20px;
+  margin-right: 10px;
+ 
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: aquamarine;
+}
+/* .inline-links {
+  display: flex;
+  padding-top: 35px;
+  text-align: center;
+  font-size: large;
+  justify-content: center;
+  position: relative;
+} */
+
+
+.inline-links a:hover, a:visited{
+  border-radius: 35px;
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  padding: 12px 12px;
+  background-color: pink;
+}
+
+/* .hmsright {
+  padding-top: 40px;
+  text-align: center;
+  font-size: large;
+  display: inline-block;
+  padding-inline-start: 240px;
+}
+
+.hmsright a:hover, a:visited {
+  border-radius: 35px;
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  padding: 12px 12px;
+  background-color: pink;
+} */
+
+h4 {
+  text-align: center;
+  padding-top: 10%;
+  font-size: 24px;
+  text-decoration:underline;
+  text-decoration-style: dotted;
+  text-underline-offset: 50%;
+}
+
+p {
+  margin-left: 15%;
+  margin-right: 15%;
+  text-align: center;
+  padding-top: 15px;
+  font-size: 24px;
+}
+
+h3 {
+  text-align: center;
+  padding-top: 50px;
+  font-size: 24px;
+}
+
+.col-center {
+  text-align: center;
+}
+
+
+
+
+
